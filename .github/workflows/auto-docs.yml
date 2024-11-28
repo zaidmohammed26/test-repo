@@ -19,7 +19,7 @@ jobs:
         run: npm install
 
       - name: Install auto-docs globally from GitHub repository
-        run: sudo npm install -g git+https://github.com/username/auto-docs.git
+        run: sudo npm install -g git+https://github.com/zaidmohammed26/auto-api-docs.git
 
       - name: Generate OpenAPI spec
         run: auto-docs generate
