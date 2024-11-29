@@ -28,4 +28,6 @@ jobs:
         run: auto-docs docs
 
       - name: Deploy documentation
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: auto-docs deploy
