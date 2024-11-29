@@ -8,5 +8,5 @@ paths:
     get:
       summary: Example endpoint
       responses:
-        "201":
+        "202":
           description: Successful response
