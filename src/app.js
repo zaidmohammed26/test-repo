@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(middleware);
 
 // Routes
-app.get("/hello", (req, res) => res.send("Hello sufiyaaaaaaaaaaaaaann!"));
+app.get("/hello", (req, res) => res.send("Hello sufiyaaaaaaaaaaaaann!"));
 
 // Start the server
 const PORT = 3000;
