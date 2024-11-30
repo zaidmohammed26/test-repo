@@ -113,5 +113,49 @@
       "if-none-match": "W/\"d-7+HJun5mkLrOuTMKZZtMRkCwfwA\""
     },
     "timestamp": "2024-11-30T15:02:51.560Z"
+  },
+  {
+    "method": "GET",
+    "url": "/",
+    "headers": {
+      "host": "localhost:3000",
+      "connection": "keep-alive",
+      "sec-ch-ua": "\"Chromium\";v=\"128\", \"Not;A=Brand\";v=\"24\", \"Google Chrome\";v=\"128\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+      "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+      "sec-fetch-site": "none",
+      "sec-fetch-mode": "navigate",
+      "sec-fetch-user": "?1",
+      "sec-fetch-dest": "document",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "accept-language": "en-US,en;q=0.9",
+      "cookie": "__stripe_mid=72118bd7-ee0b-400a-afe0-e231ce678afc9b2b34; username-localhost-8888=2|1:0|10:1730910283|23:username-localhost-8888|196:eyJ1c2VybmFtZSI6ICJmYTgzY2UzNTEwMDM0YzFhOTZjMzNhN2Y1ZWJlMDUzMSIsICJuYW1lIjogIkFub255bW91cyBIaW1hbGlhIiwgImRpc3BsYXlfbmFtZSI6ICJBbm9ueW1vdXMgSGltYWxpYSIsICJpbml0aWFscyI6ICJBSCIsICJjb2xvciI6IG51bGx9|8d872efb4db685ae98f05e7c1c26b44fcc9a40fdfc3de8986cc9f5968b975239; _xsrf=2|0e52db89|10bfe80d23e8e01ec9f17ed324139653|1730910283"
+    },
+    "timestamp": "2024-11-30T23:07:19.034Z"
+  },
+  {
+    "method": "GET",
+    "url": "/sun",
+    "headers": {
+      "host": "localhost:3000",
+      "connection": "keep-alive",
+      "sec-ch-ua": "\"Chromium\";v=\"128\", \"Not;A=Brand\";v=\"24\", \"Google Chrome\";v=\"128\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+      "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+      "sec-fetch-site": "none",
+      "sec-fetch-mode": "navigate",
+      "sec-fetch-user": "?1",
+      "sec-fetch-dest": "document",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "accept-language": "en-US,en;q=0.9",
+      "cookie": "__stripe_mid=72118bd7-ee0b-400a-afe0-e231ce678afc9b2b34; username-localhost-8888=2|1:0|10:1730910283|23:username-localhost-8888|196:eyJ1c2VybmFtZSI6ICJmYTgzY2UzNTEwMDM0YzFhOTZjMzNhN2Y1ZWJlMDUzMSIsICJuYW1lIjogIkFub255bW91cyBIaW1hbGlhIiwgImRpc3BsYXlfbmFtZSI6ICJBbm9ueW1vdXMgSGltYWxpYSIsICJpbml0aWFscyI6ICJBSCIsICJjb2xvciI6IG51bGx9|8d872efb4db685ae98f05e7c1c26b44fcc9a40fdfc3de8986cc9f5968b975239; _xsrf=2|0e52db89|10bfe80d23e8e01ec9f17ed324139653|1730910283"
+    },
+    "timestamp": "2024-11-30T23:07:22.899Z"
   }
 ]
