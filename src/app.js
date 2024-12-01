@@ -24,7 +24,7 @@ app.use(middleware);
 
 // Routes
 app.get("/", (req, res) => res.send("Hello"));
-app.get("/hello", (req, res) => res.send("Hello sufiyaaaasaaaaaaaaann!"));
+app.get("/hello", (req, res) => res.send("Hello sufiyaaaasaaaaqaaaaann!"));
 app.get("/sun", (req, res) => res.send("Hello sunn!"));
 
 // Start the server
