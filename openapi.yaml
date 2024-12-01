@@ -1,0 +1,74 @@
+openapi: 3.0.0
+info:
+  title: API Documentation
+  version: 1.0.0
+  description: Generated API documentation
+paths:
+  /hello:
+    get:
+      tags:
+        - Default
+      summary: Handle GET request for /hello
+      operationId: GEThello
+      parameters: []
+      requestBody:
+        description: ''
+        content: {}
+        required: false
+      responses:
+        '200':
+          description: Successful response
+          headers: {}
+      deprecated: false
+      security: []
+  /favicon.ico:
+    get:
+      tags:
+        - Default
+      summary: Handle GET request for /favicon.ico
+      operationId: GETfaviconico
+      parameters: []
+      requestBody:
+        description: ''
+        content: {}
+        required: false
+      responses:
+        '200':
+          description: Successful response
+          headers: {}
+      deprecated: false
+      security: []
+  /:
+    get:
+      tags:
+        - Default
+      summary: Handle GET request for /
+      operationId: GET
+      parameters: []
+      requestBody:
+        description: ''
+        content: {}
+        required: false
+      responses:
+        '200':
+          description: Successful response
+          headers: {}
+      deprecated: false
+      security: []
+  /sun:
+    get:
+      tags:
+        - Default
+      summary: Handle GET request for /sun
+      operationId: GETsun
+      parameters: []
+      requestBody:
+        description: ''
+        content: {}
+        required: false
+      responses:
+        '200':
+          description: Successful response
+          headers: {}
+      deprecated: false
+      security: []
