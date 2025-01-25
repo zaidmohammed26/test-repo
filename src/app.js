@@ -23,7 +23,7 @@ app.use(express.json());
 
 // Routes
 app.get("/", (req, res) => res.send("Hey"));
-app.get("/hello", (req, res) => res.send("Helloooooooo"));
+app.get("/hello", (req, res) => res.send("Hellooooooooo"));
 app.get("/sun", (req, res) => res.send("Hi"));
 
 // Start the server
