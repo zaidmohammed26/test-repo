@@ -23,7 +23,7 @@ app.use(express.json());
 
 // Routes
 app.get("/", (req, res) => res.send("Hey"));
-app.get("/hello", (req, res) => res.send("Hellooooooooooooo"));
+app.get("/hello", (req, res) => res.send("Helloooooooooooooo"));
 app.get("/sun", (req, res) => res.send("Hi"));
 app.get("/s", (req, res) => res.send("Hi"));
 
