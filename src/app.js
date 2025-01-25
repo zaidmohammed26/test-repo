@@ -10,21 +10,20 @@
 // app.get("/hello", (req, res) => res.send("Hello World!"));
 // app.listen(3000, () => console.log("Server running on port 3000"));
 const express = require("express");
-const middleware = require("auto-docs-cli/middleware");
 const cors = require("cors");
+const middleware = require("auto-docs-cli/middleware");
 
 const app = express();
+// Custom middleware
+app.use(middleware);
 
 // Middleware for CORS and parsing JSON
 app.use(cors());
 app.use(express.json());
 
-// Custom middleware
-app.use(middleware);
-
 // Routes
 app.get("/", (req, res) => res.send("Hey"));
-app.get("/hello", (req, res) => res.send("Hellooooooo"));
+app.get("/hello", (req, res) => res.send("Helloooooooo"));
 app.get("/sun", (req, res) => res.send("Hi"));
 
 // Start the server
